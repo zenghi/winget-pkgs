@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
+PackageIdentifier: zenghi.QCCOM
+PackageVersion: 1.9.5
+InstallerType: portable
+Commands:
+- qccom
+ReleaseDate: 2026-11-03
+Installers:
+- Architecture: x64
+  InstallerUrl: https://www.zenghi.com/download/1.9.5/qccom-windows-x64.exe
+  InstallerSha256: 06FCE6AF04277CDF82A3FB6EC9A3F6DB1257F72CF58A2EFFF1B4B939013739E5
+ManifestType: installer
+ManifestVersion: 1.9.0
